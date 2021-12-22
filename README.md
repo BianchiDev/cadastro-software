@@ -1,5 +1,5 @@
 # cadastro-software 
-## * Itálico * Nesse crud temos as seguintes funcionalidades: 
+ * Itálico * Nesse crud temos as seguintes funcionalidades: 
 [ Fazer login] 
 [Consultar Usuários (Lista todos) ]
 3. Incluir Usuário 
