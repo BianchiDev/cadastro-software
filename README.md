@@ -5,7 +5,7 @@ Nesse crud temos as seguintes funcionalidades
 3. Incluir Usuário 
 4. Alterar Usuário 
 5. Remover Usuário
-6. 
+
 A estrutura do usuário 
 
 • Nome [string] 
