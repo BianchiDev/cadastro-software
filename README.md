@@ -1,7 +1,7 @@
-# cadastro-software
-Nesse crud temos as seguintes funcionalidades 
-1. Fazer login 
-2. Consultar Usuários (Lista todos) 
+# cadastro-software 
+## Nesse crud temos as seguintes funcionalidades : books:
+[ Fazer login] 
+[Consultar Usuários (Lista todos) ]
 3. Incluir Usuário 
 4. Alterar Usuário 
 5. Remover Usuário
