@@ -53,12 +53,7 @@ Projeto de cadastro de Software desenvolvido com Java Web, JSF e Maven.
 
 ## Instalação
 
-```
-$ git clone https://github.com/danilomeneghel/cadastro-software.git
 
-$ cd cadastro-software
-
-```
 
 Crie o banco de dados com o nome cadastro_software em seu PostgreSQL. Você pode localizar o dump cadastro_software.sql na raiz e importar com: 
 
