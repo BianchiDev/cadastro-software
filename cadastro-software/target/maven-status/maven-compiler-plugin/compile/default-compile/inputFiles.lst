@@ -1,0 +1,12 @@
+/home/felipe/cadastro-software/src/main/java/filtro/LoginFiltro.java
+/home/felipe/cadastro-software/src/main/java/entidade/Usuario.java
+/home/felipe/cadastro-software/src/main/java/bean/CrudBean.java
+/home/felipe/cadastro-software/src/main/java/bean/SoftwareBean.java
+/home/felipe/cadastro-software/src/main/java/dao/UsuarioDAO.java
+/home/felipe/cadastro-software/src/main/java/dao/SoftwareDAO.java
+/home/felipe/cadastro-software/src/main/java/filtro/AppFiltro.java
+/home/felipe/cadastro-software/src/main/java/util/ConexaoDB.java
+/home/felipe/cadastro-software/src/main/java/dao/CrudDAO.java
+/home/felipe/cadastro-software/src/main/java/alertas/ErroSistema.java
+/home/felipe/cadastro-software/src/main/java/bean/UsuarioBean.java
+/home/felipe/cadastro-software/src/main/java/entidade/Software.java

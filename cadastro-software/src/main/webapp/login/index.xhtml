@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <f:facet name="first">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+        </f:facet>
+        <title>Sistema de Cadastro de Softwares</title>
+        <ui:insert name="head" />
+        <h:outputStylesheet name="layout/style/layout.css"  />
+    </h:head>
+    <h:body>
+        <div class="bg-login">
+            <div class="container-login">
+                <div class="panel panel-default">
+                    <div class="panel-body box-login">
+                        <h3 class="title-login">Login</h3>
+                        <h:form>
+                            <p:panelGrid style="margin: 0px auto">
+                                <div class="form-group">
+                                    <p:focus for="email" />
+                                    <i class="fa fa-user"></i>
+                                    <p:inputText id="email" value="#{usuarioBean.usuario.email}" styleClass="form-control input-login" required="true" placeholder="Email" label="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <i class="fa fa-lock"></i>
+                                    <p:password id="senha" value="#{usuarioBean.usuario.senha}" styleClass="form-control input-login" required="true" placeholder="Senha" label="Senha" />
+                                </div>
+                            </p:panelGrid>
+                            <p:commandButton value="Login" styleClass="btn-login btn-lg btn-block" action="#{usuarioBean.doLogin()}" ajax="false" update="@form" />
+                            <p:messages autoUpdate="true"></p:messages>
+                        </h:form>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <strong>Test Login:</strong><br /><br />
+                    Email: admin@admin.com<br />
+                    Password: admin123<br />
+                </div>
+            </div>
+        </div>
+    </h:body>
+</html>

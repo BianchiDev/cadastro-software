@@ -1,0 +1,12 @@
+alertas/ErroSistema.class
+dao/CrudDAO.class
+entidade/Usuario.class
+bean/UsuarioBean.class
+dao/SoftwareDAO.class
+filtro/LoginFiltro.class
+bean/SoftwareBean.class
+entidade/Software.class
+dao/UsuarioDAO.class
+util/ConexaoDB.class
+filtro/AppFiltro.class
+bean/CrudBean.class
