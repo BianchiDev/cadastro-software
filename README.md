@@ -92,17 +92,4 @@ https://cadastro-software.herokuapp.com/
 	- Email: admin@admin.com
 	- Senha: admin123
 
-## Licença
-
-Projeto licenciado sob <a href="LICENSE">The MIT License (MIT)</a>.
-
-## Screenshots
-
-![Screenshots](screenshots/screenshot01.png)<br><br>
-![Screenshots](screenshots/screenshot02.png)<br><br>
-![Screenshots](screenshots/screenshot03.png)<br><br>
-![Screenshots](screenshots/screenshot04.png)<br><br>
-![Screenshots](screenshots/screenshot05.png)<br><br>
-![Screenshots](screenshots/screenshot06.png)<br><br>
-
 
